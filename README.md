@@ -8,9 +8,9 @@ The classifier achieved the following results:
                      
 |                |      P        |    R       |      F1     |
 |----------------|---------------|------------|-------------|
-|Not offensive   |      0.975    |    0.794   |      0.875  |
-|Offensive       |      0.599    |    0.937   |      0.731. |
-
+|Non-Hate        |      0.975    |    0.794   |      0.875  |
+|Hate            |      0.599    |    0.937   |      0.731. |
+  
 
 For Italian, the model has been trained on the HaSpeeDe 2020 training set, for more details on the data and the task please check the task website (http://www.di.unito.it/~tutreeb/haspeede-evalita20/index.html).
 The results obtained on HaSpeeDe test sets are reported below. The in-domain test contains tweets annotated as hateful or not. The out-of-domain test set includes instead news headlines, with the same kind of annotation.
