@@ -10,6 +10,9 @@ The classifier achieved the following results:
 |----------------|---------------|------------|-------------|
 |Non-Hate        |      0.975    |    0.794   |      0.875  |
 |Hate            |      0.599    |    0.937   |      0.731. |
+
+
+The English model can be dowloaded [here]: https://drive.google.com/file/d/1CnEch1RVpydmPT-3GMttRh_0tNNNexku/view?usp=sharing
   
 
 For Italian, the model has been trained on the HaSpeeDe 2020 training set, for more details on the data and the task please check the task website (http://www.di.unito.it/~tutreeb/haspeede-evalita20/index.html).
