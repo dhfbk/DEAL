@@ -26,7 +26,7 @@ The results obtained on HaSpeeDe test sets are reported below. The in-domain tes
 |News      |    0.691  |  0.519  |  0.593   |    0.761 |  0.868 |  0.811   |     0.702 | 
 
 
-The Italain model can be dowloaded [here](https://drive.google.com/file/d/1tSQGix08O0DPhQaytXwtdInfK18jnBzc/view?usp=sharing).
+The Italian model can be dowloaded [here](https://drive.google.com/file/d/1tSQGix08O0DPhQaytXwtdInfK18jnBzc/view?usp=sharing).
 
 BERT versions: for English we useuncased_L-12_H-768_A-12 model (https://github.com/google-research/bert) while for Italian we use AlBERTo (https://github.com/marcopoli/AlBERTo-it).
 The pre-processing pipeline is the same for both the languages and includes tokenization, link and user mention replacement with URL and USER respectively, hashtag splitting with the Ekphrasis tool  (customized for Italian) and replacement of emojis with a textual description in the same language of the text. Code for pre-processing to be uploaded soon.
