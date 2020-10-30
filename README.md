@@ -6,18 +6,18 @@ For English, the system is based on BERT tuned on a subset of 15k tweets from th
 The classifier achieved the following results:
 
                      
-                      P             R             F1
-Not offensive         0.975         0.794         0.875
-Offensive             0.599         0.937         0.731
+|                |      P        |    R       |      F1
+|Not offensive   |      0.975    |    0.794   |      0.875
+|Offensive       |      0.599    |    0.937   |      0.731
 
 
 For Italian, the model has been trained on the HaSpeeDe 2020 training set, for more details on the data and the task please check the task website (http://www.di.unito.it/~tutreeb/haspeede-evalita20/index.html).
 The results obtained on HaSpeeDe test sets are reported below. The in-domain test contains tweets annotated as hateful or not. The out-of-domain test set includes instead news headlines, with the same kind of annotation.
 
-              Hate class                    Non-hate class               Macro Avg
-DocType       P        R        F1          P       R       F1           F1    
-Tweets        0.727    0.800    0.762       0.785   0.708   0.745        0.753
-News          0.691    0.519    0.593       0.761   0.868   0.811        0.702  
+|          |    Hate class         |           Non-hate class      |         Macro Avg
+|DocType   |    P      |  R      |  F1      |    P     |  R     |  F1      |     F1    
+|Tweets    |    0.727  |  0.800  |  0.762   |    0.785 |  0.708 |  0.745   |     0.753 |
+|News      |    0.691  |  0.519  |  0.593   |    0.761 |  0.868 |  0.811   |     0.702 | 
 
 
 BERT versions: for English we useuncased_L-12_H-768_A-12 model (https://github.com/google-research/bert) while for Italian we use AlBERTo (https://github.com/marcopoli/AlBERTo-it).
