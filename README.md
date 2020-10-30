@@ -7,6 +7,7 @@ The classifier achieved the following results:
 
                      
 |                |      P        |    R       |      F1|
+|---|---|---|---|
 |Not offensive   |      0.975    |    0.794   |      0.875|
 |Offensive       |      0.599    |    0.937   |      0.731|
 
