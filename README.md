@@ -28,4 +28,6 @@ The pre-processing pipeline is the same for both the languages and includes toke
 
 If you use this system please cite the paper:
 
+```
 Elisa Leonardelli, Stefano Menini and Sara Tonelli “Italian Hate Speech Detection via Self-Training and Oversampling”  In Proceedings of the Seventh Evaluation Campaign of Natural Language Processing  (EVALITA 2020). 
+```
